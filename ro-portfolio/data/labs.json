@@ -1,0 +1,58 @@
+[
+  {
+    "id": "thm",
+    "platform": "TryHackMe",
+    "username": "YOUR_THM_USERNAME",
+    "url": "https://tryhackme.com/p/YOUR_THM_USERNAME",
+    "rank": "0x8 [HACKER]",
+    "progressLabel": "Level progress",
+    "progressPct": 64,
+    "stats": [
+      { "label": "Rooms", "value": "41" },
+      { "label": "Badges", "value": "12" },
+      { "label": "Streak", "value": "23d" }
+    ]
+  },
+  {
+    "id": "htb",
+    "platform": "Hack The Box",
+    "username": "YOUR_HTB_USERNAME",
+    "url": "https://app.hackthebox.com/profile/YOUR_HTB_ID",
+    "rank": "Hacker",
+    "progressLabel": "28% to Pro Hacker",
+    "progressPct": 28,
+    "stats": [
+      { "label": "User owns", "value": "18" },
+      { "label": "System owns", "value": "16" },
+      { "label": "Respect", "value": "7" }
+    ]
+  },
+  {
+    "id": "hackerrank",
+    "platform": "HackerRank",
+    "username": "YOUR_HR_USERNAME",
+    "url": "https://www.hackerrank.com/profile/YOUR_HR_USERNAME",
+    "rank": "5★ Python",
+    "progressLabel": "Problem solving",
+    "progressPct": 80,
+    "stats": [
+      { "label": "Badges", "value": "6" },
+      { "label": "Stars", "value": "5★" },
+      { "label": "Certs", "value": "2" }
+    ]
+  },
+  {
+    "id": "leetcode",
+    "platform": "LeetCode",
+    "username": "YOUR_LC_USERNAME",
+    "url": "https://leetcode.com/u/YOUR_LC_USERNAME/",
+    "rank": "Rating 1450",
+    "progressLabel": "120 / 3500 solved",
+    "progressPct": 34,
+    "stats": [
+      { "label": "Easy", "value": "68" },
+      { "label": "Medium", "value": "44" },
+      { "label": "Hard", "value": "8" }
+    ]
+  }
+]

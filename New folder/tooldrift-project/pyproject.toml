@@ -1,0 +1,16 @@
+[project]
+name = "tooldrift"
+version = "0.1.0"
+description = "Continuous drift monitoring for MCP tool definitions (MCP rug-pull / OWASP ASI04 detection)"
+requires-python = ">=3.9"
+dependencies = ["scikit-learn>=1.3", "numpy>=1.24"]
+
+[project.scripts]
+tooldrift = "tooldrift.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["tooldrift"]

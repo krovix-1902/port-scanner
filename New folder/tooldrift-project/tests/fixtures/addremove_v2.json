@@ -1,0 +1,6 @@
+{
+  "server": "utility-server",
+  "tools": [
+    {"name": "unit_converter", "description": "Convert a numeric value between two units of measurement.", "inputSchema": {"type": "object", "properties": {"value": {"type": "number"}, "from_unit": {"type": "string"}, "to_unit": {"type": "string"}}}}
+  ]
+}

@@ -1,0 +1,178 @@
+[
+  {
+    "title": "Written Investigation Case Studies",
+    "severity": "CRITICAL",
+    "status": "planned",
+    "why": "The closest thing to the real L1 analyst job - and the highest signal per hour of any project on this list.",
+    "solves": "Completes 3-4 full blue-team CTF investigations and publishes proper reports: timeline, IOCs, ATT&CK mapping, the 5 Ws, and remediation.",
+    "tags": ["Splunk BOTS", "CyberDefenders", "ATT&CK Navigator"]
+  },
+  {
+    "title": "Enterprise SOC Detection Lab",
+    "severity": "CRITICAL",
+    "status": "planned",
+    "why": "The headline 'looks like experience' piece - a full SOC built from scratch before the first real job.",
+    "solves": "Builds an Active Directory network, launches attacks with Atomic Red Team, writes detections in Splunk, then investigates and reports them.",
+    "tags": ["Splunk", "Active Directory", "Sysmon", "Atomic Red Team", "MITRE ATT&CK"]
+  },
+  {
+    "title": "AI SOC Assistant",
+    "severity": "CRITICAL",
+    "status": "planned",
+    "why": "The interview centrepiece - AI where the SOC actually hurts.",
+    "solves": "An AI analyst that triages SIEM alerts, explains attack techniques, maps them to MITRE ATT&CK, drafts incident reports, and suggests remediation - built on top of the Splunk lab.",
+    "tags": ["Python", "LLM", "LangChain", "Splunk", "MITRE ATT&CK"]
+  },
+  {
+    "title": "Wazuh + Sysmon Home Lab",
+    "severity": "HIGH",
+    "status": "in progress",
+    "why": "The always-on detection playground where every other project gets tested.",
+    "solves": "Ships Sysmon endpoint telemetry into Wazuh with custom rules and MITRE ATT&CK mapping, all self-hosted on VirtualBox.",
+    "tags": ["Wazuh", "Sysmon", "Kali Linux", "VirtualBox"]
+  },
+  {
+    "title": "Purple-Team Detection Loop",
+    "severity": "HIGH",
+    "status": "planned",
+    "why": "The red-team bridge employers love - attack, detect, tune, repeat.",
+    "solves": "Runs an atomic test, checks whether the SIEM alerts, writes a detection if it misses, then tunes it - documenting the full attack -> detect -> tune cycle with before/after evidence.",
+    "tags": ["Atomic Red Team", "Caldera", "Sysmon", "Splunk", "Sentinel"]
+  },
+  {
+    "title": "Azure Sentinel + KQL Cloud SOC",
+    "severity": "HIGH",
+    "status": "planned",
+    "why": "Doubles as SC-200 revision and shows cloud-SOC skill with no surprise bill.",
+    "solves": "Ingests telemetry into Microsoft Sentinel and writes custom analytics rules in KQL, going past the saturated 'failed-RDP world map' into real detection logic.",
+    "tags": ["Azure", "Microsoft Sentinel", "KQL", "Log Analytics"]
+  },
+  {
+    "title": "Detection Engineering - Build, Test, Tune",
+    "severity": "HIGH",
+    "status": "planned",
+    "why": "The core detection-engineering workflow, executable end-to-end on the current home lab.",
+    "solves": "Takes a data source through detection logic (Sigma/KQL), validates it with Atomic Red Team, then deploys and monitors it in Wazuh.",
+    "tags": ["Sysmon", "Sigma", "KQL", "Atomic Red Team", "Wazuh"]
+  },
+  {
+    "title": "T-Pot / Cowrie Honeypot - 7 Days of Attackers",
+    "severity": "MEDIUM",
+    "status": "planned",
+    "why": "Real attackers, real data - a week of the internet knocking on the door.",
+    "solves": "Deploys an internet-facing honeypot on a VPS, logs attacker activity for 7 days, then documents the IOCs and attacker TTPs.",
+    "tags": ["T-Pot", "Cowrie", "VPS", "Threat Intel"]
+  },
+  {
+    "title": "Incident Response Case Study",
+    "severity": "MEDIUM",
+    "status": "planned",
+    "why": "A scripted end-to-end IR engagement, written up like the real thing.",
+    "solves": "Works a ransomware PCAP through Identify -> Analyze -> Contain -> Eradicate -> Recover, delivered as a PDF report using the NIST framework.",
+    "tags": ["NIST IR", "Wireshark", "Wazuh"]
+  },
+  {
+    "title": "Phishing Email Analysis Portfolio",
+    "severity": "MEDIUM",
+    "status": "planned",
+    "why": "A literal daily L1 task - and a quick, high-volume win.",
+    "solves": "Analyses 10-15 real phishing samples end-to-end - headers, SPF/DKIM, URL and attachment detonation, IOCs, verdict - and distils a reusable one-page indicator guide.",
+    "tags": ["VirusTotal", "any.run", "CyberChef", "MXToolbox"]
+  },
+  {
+    "title": "CTI Threat-Actor Report",
+    "severity": "MEDIUM",
+    "status": "planned",
+    "why": "Cheap, fast, and shows the writing and communication managers prize.",
+    "solves": "Profiles a threat actor or campaign, maps TTPs in ATT&CK Navigator, derives detection and mitigation recommendations, and writes a BLUF intelligence report.",
+    "tags": ["ATT&CK Navigator", "OpenCTI", "CTI Blueprints"]
+  },
+  {
+    "title": "OWASP Top 10 Vulnerability Lab",
+    "severity": "MEDIUM",
+    "status": "planned",
+    "why": "The red-team angle - build it broken, break it, then fix it.",
+    "solves": "Builds an app with intentional vulnerabilities, exploits each OWASP Top 10 class, then ships vulnerable and patched branches with a writeup and tests per vuln.",
+    "tags": ["Flask", "OWASP Top 10", "Git branches"]
+  },
+  {
+    "title": "Intrusion Detection System",
+    "severity": "HIGH",
+    "status": "planned",
+    "why": "Understand detection by writing one from scratch.",
+    "solves": "A Python IDS that inspects live traffic against signature rules and logs alerts to a small web dashboard.",
+    "tags": ["Python", "Scapy", "SQLite", "Flask"]
+  },
+  {
+    "title": "File Integrity Monitor",
+    "severity": "HIGH",
+    "status": "planned",
+    "why": "A core defensive control every endpoint needs.",
+    "solves": "Watches critical files, hashes them, and raises an alert the moment one changes unexpectedly.",
+    "tags": ["Python", "hashlib", "watchdog"]
+  },
+  {
+    "title": "Phishing Page Detector",
+    "severity": "HIGH",
+    "status": "planned",
+    "why": "Stops the attack most breaches actually start with.",
+    "solves": "Scores URLs on lexical and WHOIS features with a lightweight classifier to flag likely phishing pages.",
+    "tags": ["Python", "Requests", "whois", "scikit-learn"]
+  },
+  {
+    "title": "Port Scanner",
+    "severity": "MEDIUM",
+    "status": "planned",
+    "why": "The foundational recon tool - built, not just used.",
+    "solves": "Scans hosts for open ports and grabs service banners, the way Nmap does under the hood.",
+    "tags": ["Python", "socket", "Scapy"]
+  },
+  {
+    "title": "Packet Sniffer",
+    "severity": "MEDIUM",
+    "status": "planned",
+    "why": "See the wire the way Wireshark does.",
+    "solves": "Captures and dissects live network packets, printing protocol and header detail per frame.",
+    "tags": ["Python", "Scapy", "Wireshark"]
+  },
+  {
+    "title": "Keylogger Detector",
+    "severity": "MEDIUM",
+    "status": "planned",
+    "why": "Learn endpoint defence by hunting the threat directly.",
+    "solves": "Inspects running processes and OS hooks to surface behaviour consistent with keylogging.",
+    "tags": ["Python", "psutil", "OS APIs"]
+  },
+  {
+    "title": "Firewall Simulator",
+    "severity": "MEDIUM",
+    "status": "planned",
+    "why": "Understand rule ordering and packet filtering by building the engine.",
+    "solves": "Applies a configurable ruleset to simulated traffic and shows what gets allowed or dropped and why.",
+    "tags": ["Python", "Scapy", "Flask"]
+  },
+  {
+    "title": "Password Cracker",
+    "severity": "LOW",
+    "status": "planned",
+    "why": "Understand why weak hashes fall - so you can defend them.",
+    "solves": "Runs dictionary and brute-force attacks against common hash types to demonstrate real password weakness.",
+    "tags": ["Python", "hashlib", "wordlists"]
+  },
+  {
+    "title": "Web App Vuln Scanner",
+    "severity": "LOW",
+    "status": "planned",
+    "why": "The offensive-side complement to the OWASP lab.",
+    "solves": "Crawls a target site and probes for common SQLi and XSS injection points.",
+    "tags": ["Python", "crawler", "SQLi", "XSS"]
+  },
+  {
+    "title": "Encrypted Chat App",
+    "severity": "LOW",
+    "status": "planned",
+    "why": "Applied cryptography you can actually message on.",
+    "solves": "A chat app with RSA key exchange and AES message encryption over WebSockets.",
+    "tags": ["Python", "RSA", "AES", "WebSockets"]
+  }
+]

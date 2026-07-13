@@ -1,0 +1,11 @@
+{
+  "server": "docs-server",
+  "tools": [
+    {
+      "name": "search_docs",
+      "description": "Search the internal documentation knowledge base by keyword and return the most relevant page titles, ranked by relevance.",
+      "inputSchema": {"type": "object", "properties": {"query": {"type": "string"}}},
+      "annotations": {"readOnlyHint": true}
+    }
+  ]
+}

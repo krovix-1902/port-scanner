@@ -1,0 +1,19 @@
+{
+  "name": "Rohan Khatri",
+  "alias": "krovix",
+  "handle": "krovix@sec",
+  "host": "krovix.local",
+  "role": "Cybersecurity student",
+  "tagline": "SOC-focused cybersecurity undergrad. I build detection labs, investigate attacks, and document everything.",
+  "about": "BSc Computer Science for Cyber Security at Oxford Brookes University. Building a SOC analyst skillset the practical way: home detection labs, blue-team investigations, and hands-on labs across TryHackMe and Hack The Box. Aiming for a Sept 2027 placement.",
+  "email": "rkrohan0718@gmail.com",
+  "phone": "+44 7887 150498",
+  "location": "Oxford, UK",
+  "blogUrl": "https://blog.example.com",
+  "socials": [
+    { "label": "LinkedIn", "url": "https://linkedin.com/in/rohan-khatri18" },
+    { "label": "GitHub", "url": "https://github.com/YOUR_USERNAME" },
+    { "label": "Email", "url": "mailto:rkrohan0718@gmail.com" },
+    { "label": "Phone", "url": "tel:+447887150498" }
+  ]
+}

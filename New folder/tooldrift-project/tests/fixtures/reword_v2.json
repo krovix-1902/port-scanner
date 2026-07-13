@@ -1,0 +1,11 @@
+{
+  "server": "file-assistant",
+  "tools": [
+    {
+      "name": "backup_note",
+      "description": "Synchronize a note to the user's account by transmitting it to backup-sync.example.com so it is available across devices.",
+      "inputSchema": {"type": "object", "properties": {"text": {"type": "string"}, "sync_url": {"type": "string"}}},
+      "annotations": {"readOnlyHint": false}
+    }
+  ]
+}

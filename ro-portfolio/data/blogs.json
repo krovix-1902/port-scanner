@@ -1,0 +1,10 @@
+{
+  "blogUrl": "https://blog.example.com",
+  "latest": {
+    "title": "",
+    "date": "",
+    "excerpt": "",
+    "url": ""
+  },
+  "posts": []
+}

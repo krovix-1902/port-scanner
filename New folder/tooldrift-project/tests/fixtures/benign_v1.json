@@ -1,0 +1,11 @@
+{
+  "server": "docs-server",
+  "tools": [
+    {
+      "name": "search_docs",
+      "description": "Search internal documentation by keyword and return matching page titles.",
+      "inputSchema": {"type": "object", "properties": {"query": {"type": "string"}}},
+      "annotations": {"readOnlyHint": true}
+    }
+  ]
+}

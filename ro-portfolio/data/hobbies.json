@@ -1,0 +1,7 @@
+[
+  { "name": "CTF & lab grinding", "note": "TryHackMe, Hack The Box, weekend boxes" },
+  { "name": "Homelab tinkering", "note": "VirtualBox, Wazuh, too many VMs" },
+  { "name": "Building tools", "note": "small Python security scripts" },
+  { "name": "Reading", "note": "threat reports and writeups" },
+  { "name": "Racing tech", "note": "autonomous systems @ OBRA" }
+]
