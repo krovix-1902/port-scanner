@@ -1,6 +1,0 @@
-.env
-rule_memory.json
-eval_results.png
-__pycache__/
-*.pyc
-enterprise-attack.json
