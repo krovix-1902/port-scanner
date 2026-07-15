@@ -1,6 +1,0 @@
-{
-  "server": "utility-server",
-  "tools": [
-    {"name": "calculator", "description": "Evaluate a basic arithmetic expression.", "inputSchema": {"type": "object", "properties": {"expr": {"type": "string"}}}}
-  ]
-}
